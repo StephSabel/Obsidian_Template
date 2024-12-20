@@ -1,0 +1,419 @@
+{
+  "main": {
+    "id": "b8ba89853359f735",
+    "type": "split",
+    "children": [
+      {
+        "id": "39e6cbd7a3b659ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ebeca9cdde533dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Dashboards/Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tasks"
+            }
+          },
+          {
+            "id": "8843416b4e9a5a37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Dashboards/Meetings.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Meetings"
+            }
+          },
+          {
+            "id": "817388f91d3cc37c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Projects/Core/_Career.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Career"
+            }
+          },
+          {
+            "id": "fcb8f6e284826e60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Projects/Core/_Hobbies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Hobbies"
+            }
+          },
+          {
+            "id": "a8f8ee6fbd394202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Projects/Core/_Client Development.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Client Development"
+            }
+          },
+          {
+            "id": "98dfe86ea5a87484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "24-12-20-Fri"
+            }
+          },
+          {
+            "id": "4a5c2609896d1900",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Companies/My Company.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My Company"
+            }
+          },
+          {
+            "id": "9afb23b811f48e9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Companies/Utilities Client.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Utilities Client"
+            }
+          },
+          {
+            "id": "d4ec8bc9ba16c03d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Utilities Client - 2024 - Chatbot Development"
+            }
+          },
+          {
+            "id": "67a58fdb5333cea1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entities/People/Utilities Client/Mark Manager.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mark Manager"
+            }
+          },
+          {
+            "id": "e0c204d4ead2fd9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Project Status Update"
+            }
+          },
+          {
+            "id": "37d551a49a6cc7d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Daily note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily note"
+            }
+          }
+        ],
+        "currentTab": 11
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96d9d50ab11a7004",
+    "type": "split",
+    "children": [
+      {
+        "id": "40a0bcc5ab25b47c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7ae2d81664a7414",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b6f01b2c470970a4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "right": {
+    "id": "b2d1d7a111e8f122",
+    "type": "split",
+    "children": [
+      {
+        "id": "51b6f5bc2d5f89d5",
+        "type": "tabs",
+        "dimension": 26.795977011494255,
+        "children": [
+          {
+            "id": "8650535847d263a0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "1b9635dbc744ff39",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "76cae52d924bc68e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Awesome Dashboards/Tasks.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tasks"
+            }
+          },
+          {
+            "id": "181577c038489614",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal/Meetings/2024/11-November/27-Wednesday/Selbstdeklaration ausfüllen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Selbstdeklaration ausfüllen"
+            }
+          },
+          {
+            "id": "d9141318f7b01007",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ed6f5001b806991e",
+        "type": "tabs",
+        "dimension": 49.85632183908046,
+        "children": [
+          {
+            "id": "25dd3c031c0d2741",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Dashboards/Today's Tasks.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Today's Tasks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c65f25d768989f78",
+        "type": "tabs",
+        "dimension": 23.347701149425287,
+        "children": [
+          {
+            "id": "c87b9cb19c4b4ac7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Daily note.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Daily note"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "local-backup:Run local backup": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "37d551a49a6cc7d6",
+  "lastOpenFiles": [
+    "_Dashboards/Tasks.md",
+    "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
+    "Journal/Meetings/2024/12-December/20-Friday/GenAI Sync.md",
+    "Entities/Projects/Core/_Client Development.md",
+    "Knowledge Base/_Topics/GenAI Security.md",
+    "Entities/Projects/Core/_Hobbies.md",
+    "Entities/Projects/Core/_Career.md",
+    "_Dashboards/Meetings.md",
+    "Entities/People/My Employer/Jenny Buddy.md",
+    "Entities/Companies/My Company.md",
+    "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
+    "Journal/Meetings/2024/12-December/20-Friday",
+    "Journal/Meetings/2024/12-December",
+    "Journal/Meetings/2024",
+    "Entities/People/Utilities Client/Mark Manager.md",
+    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
+    "Templates/Project.md",
+    "Entities/People/Utilities Client",
+    "Entities/Companies/Utilities Client.md",
+    "Entities/People/Jenny Buddy",
+    "Entities/People/My Employer/John Colleague.md",
+    "Entities/People/My Employer/Jane Boss.md",
+    "Entities/People/My Employer",
+    "Entities/Companies/Armira.md",
+    "Entities/Projects/Armira - 2024 - Sunshine.md",
+    "Z_Attachments/Pasted image 20241009111746.png",
+    "Z_Attachments/Pasted image 20240918141314.png",
+    "Z_Attachments/Pasted image 20241011114611.png",
+    "Z_Attachments/HERMES_22_Methodenübersicht_A3_V_1.3.pdf",
+    "Templates/Question.md",
+    "Templates/Meeting.md",
+    "Templates/Daily note.md",
+    "Templates/Contact.md",
+    "Templates/Concept.md",
+    "Knowledge Base/_Topics/Ethical AI.md",
+    "Journal/Daily Notes/2024/12-December",
+    "Journal/Daily Notes/2024",
+    "Journal/Meetings/2024/12-December/20-Friday/Risiko-Brainstorming.md",
+    "Journal/Meetings/2024/12-December/19-Thursday",
+    "Knowledge Base/Data Science/5 - Deep Learning/Neural Networks Graph.canvas",
+    "Knowledge Base/Data Science/Bins/attachments/multi_head_attention.png",
+    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/K_medoids_workflow.png",
+    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/DBSCAN_clustering.png",
+    "Knowledge Base/Data Science/Bins/attachments/3 - visualization/plotly_cloropleth.png",
+    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/AutoML.png",
+    "Knowledge Base/Data Science/Bins/attachments/5 - deep learning/grad_cam.png",
+    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/hierarchical_clustering_bu.png"
+  ]
+}

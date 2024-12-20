@@ -1,0 +1,14 @@
+{
+  "spellcheckDictionary": [
+    "Müksch",
+    "Domaschke"
+  ],
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Z_Attachments",
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "Templates/"
+  ]
+}

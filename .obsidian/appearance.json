@@ -1,0 +1,11 @@
+{
+  "enabledCssSnippets": [
+    "dataview-block",
+    "dataview-inline-fields",
+    "S - Checkboxes",
+    "shrink-pinned-tabs",
+    "tasks-plugin-backlinks-icon"
+  ],
+  "cssTheme": "",
+  "baseFontSize": 14
+}

@@ -1,0 +1,4 @@
+.workspace-tab-header:has(.mod-pinned) {
+  /* shrink if pinned */
+  max-width: 120px !important;
+}

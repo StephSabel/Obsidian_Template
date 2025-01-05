@@ -118,65 +118,9 @@
               "icon": "lucide-file",
               "title": "Utilities Client"
             }
-          },
-          {
-            "id": "d4ec8bc9ba16c03d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Utilities Client - 2024 - Chatbot Development"
-            }
-          },
-          {
-            "id": "67a58fdb5333cea1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entities/People/Utilities Client/Mark Manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mark Manager"
-            }
-          },
-          {
-            "id": "e0c204d4ead2fd9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Project Status Update"
-            }
-          },
-          {
-            "id": "37d551a49a6cc7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Daily note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Daily note"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -332,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Daily note.md",
+                "file": "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +286,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Daily note"
+              "title": "Backlinks for 24-12-20-Fri"
             }
           }
         ]
@@ -353,21 +297,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "local-backup:Run local backup": false,
+      "quickadd:QuickAdd": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37d551a49a6cc7d6",
+  "active": "98dfe86ea5a87484",
   "lastOpenFiles": [
+    "Entities/Companies/Utilities Client.md",
+    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
+    "Entities/People/Utilities Client/Mark Manager.md",
+    "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
+    "Journal/Daily Notes/2025/01-January/25-01-05-Sun.md",
+    "Templates/Daily note.md",
+    "Journal/Daily Notes/2025/01-January",
+    "Journal/Daily Notes/2025",
     "_Dashboards/Tasks.md",
     "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
     "Journal/Meetings/2024/12-December/20-Friday/GenAI Sync.md",
@@ -378,15 +327,11 @@
     "_Dashboards/Meetings.md",
     "Entities/People/My Employer/Jenny Buddy.md",
     "Entities/Companies/My Company.md",
-    "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
     "Journal/Meetings/2024/12-December/20-Friday",
     "Journal/Meetings/2024/12-December",
     "Journal/Meetings/2024",
-    "Entities/People/Utilities Client/Mark Manager.md",
-    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
     "Templates/Project.md",
     "Entities/People/Utilities Client",
-    "Entities/Companies/Utilities Client.md",
     "Entities/People/Jenny Buddy",
     "Entities/People/My Employer/John Colleague.md",
     "Entities/People/My Employer/Jane Boss.md",
@@ -399,14 +344,10 @@
     "Z_Attachments/HERMES_22_Methodenübersicht_A3_V_1.3.pdf",
     "Templates/Question.md",
     "Templates/Meeting.md",
-    "Templates/Daily note.md",
     "Templates/Contact.md",
     "Templates/Concept.md",
     "Knowledge Base/_Topics/Ethical AI.md",
     "Journal/Daily Notes/2024/12-December",
-    "Journal/Daily Notes/2024",
-    "Journal/Meetings/2024/12-December/20-Friday/Risiko-Brainstorming.md",
-    "Journal/Meetings/2024/12-December/19-Thursday",
     "Knowledge Base/Data Science/5 - Deep Learning/Neural Networks Graph.canvas",
     "Knowledge Base/Data Science/Bins/attachments/multi_head_attention.png",
     "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/K_medoids_workflow.png",

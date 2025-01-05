@@ -1,5 +1,5 @@
 {
-  "checkbox@@check-color": true,
+  "checkbox@@check-color": false,
   "checkbox@@check-bg": false,
   "royal-velvet@@inline-document-title-color": "doc-title-accent"
 }

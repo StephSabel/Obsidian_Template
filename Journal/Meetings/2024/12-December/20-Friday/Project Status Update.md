@@ -25,7 +25,7 @@ tags: [[Meetings]]
 
 ## Notes
 
-- Mark is impressed with the project next week
+- Mark is impressed with the project progress
 - Mark needs to check the budget for a possible project extension
 	- He asked me to create a draft for the project plan of the extended phase
 

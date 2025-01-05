@@ -15,7 +15,7 @@
     - [How to track tasks](#how-to-track-tasks)
 		- [Tracking tasks in meeting minutes](#tracking-tasks-in-meeting-minutes)
 	    - [Tracking tasks in daily notes](#tracking-tasks-in-daily-notes)
-	    - [Tasks with due date vs. ongoing tasks](#tasks-with-due-date-vs.-ongoing-tasks)
+	    - [Tasks with due date vs. ongoing tasks](#tasks-with-due-date-vs-ongoing-tasks)
 	    - [Special tasks](#special-tasks)
 	- [Managing meeting notes](#managing-meeting-notes)
 	- [Core projects](#core-projects)
@@ -83,7 +83,7 @@ I have developed certain workflows that I feel let me get the most out of this t
 
 In theory, you can just use `CTRL + N` or the "compose note" button at the top left to create a new note. However, the only place I use that function is in the *Knowledge Base*. To create ordered notes from the templates, there are two easy ways:
 
-![[./screenshots/menu_bar.png]]
+![Menu bar](./screenshots/menu_bar.png)
 
 1. For daily notes, click the daily note button (teal) on the menu bar on the very left.
 2. For meetings, companies, contacts, project and topics click the QuickAdd button (magenta). This will open a prompt depending on the template.
@@ -101,7 +101,8 @@ The place you will need to do this most regularly is in meeting notes.
 
 **IMPORTANT**: Add companies, projects, people and topics as links by using double brackets. This is necessary for some of the dataviews to work. Additionally, it ensures that the spelling is identical, and you can just click the link in your meeting to navigate to the project, the company or one of the attendees. Neat! 
 
-![[./screenshots/properties.png]]
+![File properties](./screenshots/properties.png)
+
 Obsidian will remember which pages you linked previously in which kind of property and will offer you an easy drop-down selection in the future.
 
 ### How to track tasks
@@ -117,11 +118,13 @@ I prefer not to do this, since daily notes are not associated with projects. If 
 
 But if it's just a small task that I need to track, there is still a way to associate it with a project from the daily note page: [Inline fields](https://blacksmithgu.github.io/obsidian-dataview/annotation/add-metadata/#inline-fields).
 
-![[inline_field_raw.png]]
+![Creating inline filds](./screenshots/inline_field_raw.png)
+
 This results in this neat look (courtesy of [one of the CSS snippets](https://github.com/StephSabel/Obsidian_Template/blob/main/.obsidian/snippets/dataview-inline-fields.css))
 
-![[inline_field_rendered.png]]
-TIP: Use [aliases](https://help.obsidian.md/Linking+notes+and+files/Aliases) for your project to make the name shorter!
+![What inline fields look like](./screenshots/inline_field_rendered.png)
+
+**TIP**: Use [aliases](https://help.obsidian.md/Linking+notes+and+files/Aliases) for your project to make the name shorter!
 
 #### Tasks with due date vs. ongoing tasks
 

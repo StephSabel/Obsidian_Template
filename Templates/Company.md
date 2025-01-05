@@ -23,13 +23,7 @@ WHERE contains(company, [[]])
 SORT file.name
 ```
 
-## Tasks
-
-```dataview
-TASK
-WHERE client = [[]] AND (!completed OR completion >= date(today) - dur(1 d))
-```
-
+ 
 ## Client Development
 
 ```dataview

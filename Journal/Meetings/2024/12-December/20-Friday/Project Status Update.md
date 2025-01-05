@@ -8,7 +8,7 @@ topics:
 project: "[[Utilities Client - 2024 - Chatbot Development|NewBot]]"
 attendees:
   - "[[Mark Manager]]"
-  - "[[John Colleague]]"
+  - "[[John C"
 summary:
 ---
 tags: [[Meetings]]

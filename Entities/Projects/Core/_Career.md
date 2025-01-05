@@ -18,7 +18,8 @@ aliases:
 ### Time reporting
 
 - [x] Finish time reporting 🔁 every month on the 1st 📅 2024-12-01 ✅ 2024-12-20
-- [ ] Finish time reporting 🔁 every month on the 1st 📅 2025-01-01
+- [x] Finish time reporting 🔁 every month on the 1st 📅 2025-01-01 ✅ 2025-01-05
+- [ ] Finish time reporting 🔁 every month on the 1st 📅 2025-02-01
 
 
 ## My tasks 

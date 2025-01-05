@@ -35,14 +35,6 @@ GROUP BY delegated
 # Meetings
 
 ```dataview
-TABLE date as Date, summary as Summary
-FROM "Journal/Meetings" where project = [[]]
-SORT file.cday DESC
-```
-
-# Meetings
-
-```dataview
 TABLE date as Date, summary as Summary, topics as Topics
 FROM "Journal/Meetings" where project = [[]]
 SORT file.cday DESC

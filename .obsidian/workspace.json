@@ -64,63 +64,21 @@
             }
           },
           {
-            "id": "a8f8ee6fbd394202",
+            "id": "556a21691274f774",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entities/Projects/Core/_Client Development.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Client Development"
-            }
-          },
-          {
-            "id": "98dfe86ea5a87484",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "24-12-20-Fri"
-            }
-          },
-          {
-            "id": "4a5c2609896d1900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entities/Companies/My Company.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "My Company"
-            }
-          },
-          {
-            "id": "9afb23b811f48e9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entities/Companies/Utilities Client.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Utilities Client"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -276,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 24-12-20-Fri"
+              "title": "Backlinks for README"
             }
           }
         ]
@@ -307,54 +265,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "98dfe86ea5a87484",
+  "active": "556a21691274f774",
   "lastOpenFiles": [
-    "Entities/Companies/Utilities Client.md",
-    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
-    "Entities/People/Utilities Client/Mark Manager.md",
     "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
+    "README.md",
     "Journal/Daily Notes/2025/01-January/25-01-05-Sun.md",
+    "Entities/Projects/Core/_Hobbies.md",
+    "Entities/People/My Employer/Jane Boss.md",
+    "Entities/Projects/Core/_Client Development.md",
+    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
+    "Knowledge Base/_Topics/GenAI Security.md",
+    "screenshots/inline_field_rendered.png",
+    "screenshots/inline_field_raw.png",
+    "_Dashboards/Meetings.md",
+    "screenshots/properties.png",
+    "screenshots/aliases.png",
+    "_Dashboards/Contacts.md",
+    "screenshots/menu_bar.png",
+    "screenshots/quick_add.png",
+    "screenshots/inline_tags_rendered.png",
+    "screenshots/inline_tags_raw.png",
+    "screenshots/daily_note.png",
+    "screenshots",
+    "Journal/Meetings/2024/12-December/20-Friday/Obsidian-Template.md",
+    "_Dashboards/Companies.md",
+    "_Dashboards/Project Mapping.md",
+    "_Dashboards/Tasks.md",
+    "Templates/Company.md",
+    "Entities/Companies/My Company.md",
+    "Entities/Companies/Utilities Client.md",
+    "Journal/Daily Notes/2025/01-January/Daily Notes.md",
+    "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
+    "Entities/People/Utilities Client/Mark Manager.md",
     "Templates/Daily note.md",
     "Journal/Daily Notes/2025/01-January",
     "Journal/Daily Notes/2025",
-    "_Dashboards/Tasks.md",
-    "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
     "Journal/Meetings/2024/12-December/20-Friday/GenAI Sync.md",
-    "Entities/Projects/Core/_Client Development.md",
-    "Knowledge Base/_Topics/GenAI Security.md",
-    "Entities/Projects/Core/_Hobbies.md",
     "Entities/Projects/Core/_Career.md",
-    "_Dashboards/Meetings.md",
     "Entities/People/My Employer/Jenny Buddy.md",
-    "Entities/Companies/My Company.md",
     "Journal/Meetings/2024/12-December/20-Friday",
     "Journal/Meetings/2024/12-December",
     "Journal/Meetings/2024",
     "Templates/Project.md",
     "Entities/People/Utilities Client",
     "Entities/People/Jenny Buddy",
-    "Entities/People/My Employer/John Colleague.md",
-    "Entities/People/My Employer/Jane Boss.md",
     "Entities/People/My Employer",
-    "Entities/Companies/Armira.md",
-    "Entities/Projects/Armira - 2024 - Sunshine.md",
     "Z_Attachments/Pasted image 20241009111746.png",
-    "Z_Attachments/Pasted image 20240918141314.png",
-    "Z_Attachments/Pasted image 20241011114611.png",
     "Z_Attachments/HERMES_22_Methodenübersicht_A3_V_1.3.pdf",
-    "Templates/Question.md",
-    "Templates/Meeting.md",
-    "Templates/Contact.md",
-    "Templates/Concept.md",
-    "Knowledge Base/_Topics/Ethical AI.md",
-    "Journal/Daily Notes/2024/12-December",
-    "Knowledge Base/Data Science/5 - Deep Learning/Neural Networks Graph.canvas",
-    "Knowledge Base/Data Science/Bins/attachments/multi_head_attention.png",
-    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/K_medoids_workflow.png",
-    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/DBSCAN_clustering.png",
-    "Knowledge Base/Data Science/Bins/attachments/3 - visualization/plotly_cloropleth.png",
-    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/AutoML.png",
-    "Knowledge Base/Data Science/Bins/attachments/5 - deep learning/grad_cam.png",
-    "Knowledge Base/Data Science/Bins/attachments/4 - machine learning/hierarchical_clustering_bu.png"
+    "Knowledge Base/Data Science/5 - Deep Learning/Neural Networks Graph.canvas"
   ]
 }

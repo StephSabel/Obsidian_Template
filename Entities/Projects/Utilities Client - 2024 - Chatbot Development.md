@@ -1,12 +1,5 @@
 ---
 company: "[[Utilities Client]]"
-project code: 
-start: 
-end: 
-status: 
-project team: 
-stakeholders: 
-topics: 
 project: "[[Utilities Client - 2024 - Chatbot Development|NewBot]]"
 aliases:
   - NewBot

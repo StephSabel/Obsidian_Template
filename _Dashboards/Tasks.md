@@ -4,13 +4,13 @@
 
 TABLE WITHOUT ID
 
-regexreplace(regexreplace(Tasks.text, "\[.*", ""), "📅.*", "") AS Task,
+regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
+choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
 
 choice(project, project, Tasks.project) AS "Project",
 
-("[[" + file.name + "|🔗]]") AS "Link"
+("[[" + file.path + "|🔗]]") AS "Link"
 
   
 
@@ -18,7 +18,7 @@ FROM -"Knowledge Base" AND -"Templates"
 
 FLATTEN file.tasks AS Tasks
 
-WHERE !Tasks.completed AND !Tasks.delegated AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and Tasks.due
+WHERE !Tasks.completed AND !Tasks.reporting AND !Tasks.delegated AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and Tasks.due
 
 SORT Tasks.due ASC
 
@@ -30,13 +30,13 @@ SORT Tasks.due ASC
 
 TABLE WITHOUT ID
 
-regexreplace(regexreplace(Tasks.text, "\[.*", ""), "🛫.*", "") AS Task,
+regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
 choice(Tasks.start <= striptime(date(now)), "🛫 " + dateformat(Tasks.start, "MMMM d") ,dateformat(Tasks.start, "MMMM d")) AS "Start Date",
 
 choice(project, project, Tasks.project) AS "Project",
 
-("[[" + file.name + "|🔗]]") AS "Link"
+("[[" + file.path + "|🔗]]") AS "Link"
 
   
 
@@ -44,7 +44,7 @@ FROM -"Knowledge Base" AND -"Templates"
 
 FLATTEN file.tasks AS Tasks
 
-WHERE !Tasks.completed AND !Tasks.delegated AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and !Tasks.due AND Tasks.start
+WHERE !Tasks.completed AND !Tasks.delegated AND !Tasks.reporting AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and !Tasks.due AND Tasks.start
 
 SORT Tasks.start ASC
 
@@ -69,7 +69,6 @@ filter by function task.status.symbol !== "D"
 
 ```
 
-  
 
 # Delegated Tasks
 
@@ -77,9 +76,9 @@ filter by function task.status.symbol !== "D"
 
 TABLE WITHOUT ID
 
-regexreplace(regexreplace(Tasks.text, "\[.*$", ""), "📅.*$", "") AS Task,
+regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
+choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
 
 Tasks.delegated AS Person,
 
@@ -93,7 +92,7 @@ FROM -"Knowledge Base" AND -"Templates"
 
 FLATTEN file.tasks AS Tasks
 
-WHERE !Tasks.completed AND Tasks.delegated AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and Tasks.due
+WHERE !Tasks.completed AND !Tasks.reporting AND Tasks.delegated AND !Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-" and Tasks.due
 
 SORT Tasks.due ASC
 
@@ -105,9 +104,9 @@ SORT Tasks.due ASC
 
 TABLE WITHOUT ID
 
-regexreplace(regexreplace(Tasks.text, "\[.*$", ""), "📅.*$", "") AS Task,
+regexreplace(regexreplace(Tasks.text, "\[(agenda|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")), Tasks.due) AS "Due Date",
+choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")), Tasks.due) AS "Due Date",
 
 Tasks.agenda AS Person,
 
@@ -121,11 +120,42 @@ FROM -"Knowledge Base" AND -"Templates"
 
 FLATTEN file.tasks AS Tasks
 
-WHERE !Tasks.completed AND !Tasks.delegated AND Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-"
+WHERE !Tasks.completed AND !Tasks.delegated AND !Tasks.reporting AND Tasks.agenda AND Tasks.status != "D" AND Tasks.status != "-"
 
 SORT Tasks.due ASC
 
 ```
+
+# Reporting
+
+```dataview
+
+TABLE WITHOUT ID
+
+regexreplace(regexreplace(Tasks.text, "\[(reporting|project)::.*\]", ""), "📅.*", "") AS Task,
+
+choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")), Tasks.due) AS "Due Date",
+
+Tasks.reporting AS Person,
+
+choice(project, project, Tasks.project) AS "Project",
+
+("[[" + file.name + "|🔗]]") AS "Link"
+
+  
+
+FROM -"Knowledge Base" AND -"Templates"
+
+FLATTEN file.tasks AS Tasks
+
+WHERE !Tasks.completed AND !Tasks.delegated AND !Tasks.agenda AND Tasks.reporting AND Tasks.status != "D" AND Tasks.status != "-"
+
+SORT Tasks.due ASC
+
+```
+
+
+
 
 # Deferred Tasks
 

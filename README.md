@@ -62,7 +62,7 @@ Dashboards can be found in the [dashboards folder](https://github.com/StephSabel
 
 - [Today's Tasks](https://github.com/StephSabel/Obsidian_Template/blob/main/_Dashboards/Today's%20Tasks.md) - concise overview of tasks that are due today/overdue as well as ongoing tasks. This is used for a small widget in the right sidebar
 - [Tasks](https://github.com/StephSabel/Obsidian_Template/blob/main/_Dashboards/Tasks.md) - the big task dashboard that creates a (more or less structured) overview of everything that is open
-- [Meetings](https://github.com/StephSabel/Obsidian_Template/blob/main/_Dashboards/Meetings.md) - this dashboard keeps you accountable to make sure you properly post-process your meeting notes. read more in [[#How to create meeting minutes]]
+- [Meetings](https://github.com/StephSabel/Obsidian_Template/blob/main/_Dashboards/Meetings.md) - this dashboard keeps you accountable to make sure you properly post-process your meeting notes. read more in [Managing meeting notes](#managing-meeting-notes)
 - [Contacts](https://github.com/StephSabel/Obsidian_Template/blob/main/_Dashboards/Contacts.md) - just in case you need an overview of all your contacts
 
 ### Plugins

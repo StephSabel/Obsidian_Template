@@ -21,7 +21,7 @@ WHERE !project
 ```dataview
 TABLE 
 summary as Summary, 
-date as Date
+dateformat(date(date, "yy-MM-dd"), "dd\. MMMM yy") as Date
 
 FROM "Journal/Meetings"
 SORT file.cday DESC

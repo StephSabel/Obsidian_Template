@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Dashboards/Tasks.md",
+                "file": "Templates/Topic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tasks"
+              "title": "Topic"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Dashboards/Meetings.md",
+                "file": "Templates/Topic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +244,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Meetings"
+              "title": "Backlinks for Topic"
             }
           }
         ]
@@ -265,19 +265,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8843416b4e9a5a37",
+  "active": "556a21691274f774",
   "lastOpenFiles": [
-    "_Dashboards/Tasks.md",
-    "README.md",
     "Templates/Project.md",
-    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
-    "Entities/Projects/Core/_Client Development.md",
-    "Entities/Projects/Core/_Career.md",
-    "_Dashboards/Meetings.md",
+    "Templates/Meeting.md",
+    "Templates/Daily note.md",
+    "Templates/Contact.md",
+    "Templates/Company.md",
+    "Entities/People/Utilities Client/Mark Manager.md",
+    "Entities/People/My Employer/John Colleague.md",
+    "Entities/People/My Employer/Jenny Buddy.md",
+    "Entities/People/My Employer/Jane Boss.md",
     "Entities/Projects/Core/_Hobbies.md",
+    "Entities/Projects/Core/_Career.md",
+    "Entities/Projects/Core/_Client Development.md",
+    "Entities/Projects/Utilities Client - 2024 - Chatbot Development.md",
+    "_Dashboards/Tasks.md",
+    "_Dashboards/Today's Tasks.md",
+    "_Dashboards/Meetings.md",
+    "README.md",
     "Journal/Meetings/2024/12-December/20-Friday/Project Status Update.md",
     "Journal/Daily Notes/2025/01-January/25-01-05-Sun.md",
-    "Entities/People/My Employer/Jane Boss.md",
     "Knowledge Base/_Topics/GenAI Security.md",
     "screenshots/inline_field_rendered.png",
     "screenshots/inline_field_raw.png",
@@ -293,17 +301,10 @@
     "Journal/Meetings/2024/12-December/20-Friday/Obsidian-Template.md",
     "_Dashboards/Companies.md",
     "_Dashboards/Project Mapping.md",
-    "Templates/Company.md",
     "Entities/Companies/My Company.md",
     "Entities/Companies/Utilities Client.md",
-    "Journal/Daily Notes/2025/01-January/Daily Notes.md",
-    "Journal/Daily Notes/2024/12-December/24-12-20-Fri.md",
-    "Entities/People/Utilities Client/Mark Manager.md",
-    "Templates/Daily note.md",
     "Journal/Daily Notes/2025/01-January",
     "Journal/Daily Notes/2025",
-    "Journal/Meetings/2024/12-December/20-Friday/GenAI Sync.md",
-    "Entities/People/My Employer/Jenny Buddy.md",
     "Journal/Meetings/2024/12-December/20-Friday",
     "Journal/Meetings/2024/12-December",
     "Journal/Meetings/2024",

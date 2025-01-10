@@ -27,7 +27,7 @@ SORT file.name
 ## Client Development
 
 ```dataview
-TABLE dateformat(date(date, "yy-MM-dd"), "dd\. MMMM yy") as Date, summary as Summary, companies as Companies
+TABLE dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date, summary as Summary, companies as Companies
 FROM "Journal/Meetings" 
 where project = [[_Client Development]] AND (contains(companies, this.file.name) OR (contains(companies, [[]])))
 SORT file.cday DESC
@@ -36,7 +36,7 @@ SORT file.cday DESC
 ## Meetings with Company Participation
 
 ```dataview
-TABLE dateformat(date(date, "yy-MM-dd"), "dd\. MMMM yy") as Date, summary as Summary, companies as Companies
+TABLE dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date, summary as Summary, companies as Companies
 FROM "Journal/Meetings" 
 where project != [[_Client Development]] AND (contains(companies, this.file.name) OR (contains(companies, [[]])))
 SORT file.cday DESC

@@ -40,7 +40,7 @@ WHERE delegated = [[]] AND (!completed OR completion >= date(today) - dur(1 d))
 ## Meetings
 
 ```dataview
-TABLE dateformat(date(date, "yy-MM-dd"), "dd\. MMMM yy") as Date, summary AS "Summary"
+TABLE dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date, summary AS "Summary"
 FROM "Journal/Meetings" where contains(attendees, [[]])
 SORT date DESC
 ```

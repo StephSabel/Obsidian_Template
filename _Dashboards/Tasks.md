@@ -6,7 +6,7 @@ TABLE WITHOUT ID
 
 regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
+choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "dd MMM yy") ,dateformat(Tasks.due, "dd MMM yy")) AS "Due Date",
 
 choice(project, project, Tasks.project) AS "Project",
 
@@ -32,7 +32,7 @@ TABLE WITHOUT ID
 
 regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.start <= striptime(date(now)), "🛫 " + dateformat(Tasks.start, "MMMM d") ,dateformat(Tasks.start, "MMMM d")) AS "Start Date",
+choice(Tasks.start <= striptime(date(now)), "🛫 " + dateformat(Tasks.start, "dd MMM yy") ,dateformat(Tasks.start, "dd MMM yy")) AS "Start Date",
 
 choice(project, project, Tasks.project) AS "Project",
 
@@ -78,7 +78,7 @@ TABLE WITHOUT ID
 
 regexreplace(regexreplace(Tasks.text, "\[(delegated|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")) AS "Due Date",
+choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "dd MMM yy") ,dateformat(Tasks.due, "dd MMM yy")) AS "Due Date",
 
 Tasks.delegated AS Person,
 
@@ -106,7 +106,7 @@ TABLE WITHOUT ID
 
 regexreplace(regexreplace(Tasks.text, "\[(agenda|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")), Tasks.due) AS "Due Date",
+choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "dd MMM yy") ,dateformat(Tasks.due, "dd MMM yy")), Tasks.due) AS "Due Date",
 
 Tasks.agenda AS Person,
 
@@ -134,7 +134,7 @@ TABLE WITHOUT ID
 
 regexreplace(regexreplace(Tasks.text, "\[(reporting|project)::.*\]", ""), "📅.*", "") AS Task,
 
-choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "MMMM d") ,dateformat(Tasks.due, "MMMM d")), Tasks.due) AS "Due Date",
+choice(Tasks.due, choice(Tasks.due < striptime(date(now)), "⚠️ " + dateformat(Tasks.due, "dd MMM yy") ,dateformat(Tasks.due, "dd MMM yy")), Tasks.due) AS "Due Date",
 
 Tasks.reporting AS Person,
 

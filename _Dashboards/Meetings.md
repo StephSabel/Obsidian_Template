@@ -1,7 +1,7 @@
 ## Meetings without summary
 
 ```dataview
-TABLE summary as Summary, dateformat(date(date, "yy-MM-dd"), "MMMM dd") as Date 
+TABLE summary as Summary, dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date 
 FROM "Journal/Meetings"
 WHERE !summary OR summary = ""
 ```
@@ -10,7 +10,7 @@ WHERE !summary OR summary = ""
 ## Meetings without project
 
 ```dataview
-TABLE summary as Summary, dateformat(date(date, "yy-MM-dd"), "MMMM dd") as Date
+TABLE summary as Summary, dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date
 FROM "Journal/Meetings"
 WHERE !project
 ```
@@ -21,7 +21,7 @@ WHERE !project
 ```dataview
 TABLE 
 summary as Summary, 
-dateformat(date(date, "yy-MM-dd"), "dd\.MM\.yy") as Date
+dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date
 
 FROM "Journal/Meetings"
 SORT file.cday DESC

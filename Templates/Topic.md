@@ -14,10 +14,19 @@ topics:
 - 
 
 
+# Tasks
+
+```dataview  
+TASK  
+FROM "Journal"  
+WHERE topics = [[]] AND !delegated AND !completed AND status != "-" AND status != ">"  
+```
+
+
 # Meetings
 
 ```dataview
-TABLE dateformat(date(date, "yy-MM-dd"), "dd\. MMMM yy") as Date, summary as Summary
+TABLE dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date, summary as Summary
 FROM "Journal/Meetings" where (contains(topics, this.file.name) OR contains(topics, [[]]))
 SORT file.cday DESC
 ```

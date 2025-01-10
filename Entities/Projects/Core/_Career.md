@@ -42,7 +42,7 @@ GROUP BY delegated
 # Meetings
 
 ```dataview
-TABLE dateformat(date(date, "yy-MM-dd"), "dd\. MM\. yy") as Date, summary as Summary
+TABLE dateformat(date(date, "yy-MM-dd"), "dd MMM yy") as Date, summary as Summary
 FROM "Journal/Meetings" where project = [[]]
 SORT file.cday DESC
 ```
